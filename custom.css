@@ -1,0 +1,23 @@
+@media (max-width: 991px) {
+    .navbar {
+        overflow: auto;
+        max-height: 85vh;
+        align-items: flex-start;
+    }
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  line-height: 30px; /* Vertically center the text there */
+  background-color: #000000;
+}
+.g-recaptcha {
+    display: inline-block;
+}
